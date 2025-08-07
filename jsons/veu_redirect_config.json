@@ -1,0 +1,67 @@
+{
+    "use_extended_data": true,
+    "max_lookback_days": 400,
+    "redirect_dict": {
+        "QQQ": "VEU",
+        "SPY": "VEU",
+        "^NDX": "VEU",
+        "ext_TQQQ": "ext_TVEU",
+        "TQQQ": "ext_TVEU",
+        "ext_PSQ": "ext_SVEU",
+        "PSQ": "ext_SVEU"
+    },
+    "full_start_date": "2007.12.19",
+    "full_end_date": "2024.12.31",
+    "test_periods": [
+        {
+            "period_name": "2008년 서브프라임 금융위기 하락장",
+            "period_start_date": "2007.12.19",
+            "period_end_date": "2010.12.09"
+        },
+        {
+            "period_name": "2011년 그리스발 재정 위기 하락장",
+            "period_start_date": "2011.07.26",
+            "period_end_date": "2012.01.19"
+        },
+        {
+            "period_name": "2015년 1차 상하이 증시 폭락 사태",
+            "period_start_date": "2015.07.20",
+            "period_end_date": "2015.10.28"
+        },
+        {
+            "period_name": "2016년 2차 상하이 증시 폭락 사태",
+            "period_start_date": "2015.12.01",
+            "period_end_date": "2016.07.28"
+        },
+        {
+            "period_name": "2018년 연방정부 셧다운 발 하락장",
+            "period_start_date": "2018.08.29",
+            "period_end_date": "2019.04.16"
+        },
+        {
+            "period_name": "2020년 코로나-19발 하락장",
+            "period_start_date": "2020.02.19",
+            "period_end_date": "2020.06.04"
+        },
+        {
+            "period_name": "2022년 인플레이션 발 하락장",
+            "period_start_date": "2021.11.19",
+            "period_end_date": "2023.12.13"
+        },
+        {
+            "period_name": "2024년 경기 침체 우려 하락장",
+            "period_start_date": "2024.07.10",
+            "period_end_date": "2024.11.06"
+        },
+        {
+            "period_name": "2011년대 이후 데이터",
+            "period_start_date": "2011.01.03",
+            "period_end_date": "2024.12.31"
+        }
+    ],
+    "strategies_directory": "./oosit_strategies",
+    "data_directory": "./csv_data",
+    "output_directory": "./oosit_results",
+    "font_name": "바탕",
+    "font_size": 11
+}

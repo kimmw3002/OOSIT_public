@@ -1,0 +1,23 @@
+[Unit]
+Description=MarketWatch NYSE Scheduler
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+WorkingDirectory=/home/%i/rebranding/marketwatch
+ExecStart=/usr/bin/python3 /home/%i/rebranding/marketwatch/marketwatch_nyse_scheduler.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment
+Environment="PYTHONUNBUFFERED=1"
+
+# Restart policy
+StartLimitInterval=60
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

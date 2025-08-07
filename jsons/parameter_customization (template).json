@@ -1,0 +1,33 @@
+{
+  "demo_strategy": {
+    "low": {
+      "min": 0.0,
+      "max": 0.3,
+      "nsteps": 4
+    },
+    "medium": {
+      "min": 0.1,
+      "max": 0.5,
+      "nsteps": 4
+    },
+    "high": {
+      "min": 0.2,
+      "max": 0.7,
+      "nsteps": 4
+    },
+    "config[a]": {
+      "min": 0.0,
+      "max": 0.2,
+      "nsteps": 3
+    },
+    "config[b]": {
+      "min": 0.1,
+      "max": 0.4,
+      "nsteps": 3
+    },
+    "_increase_condition": [
+      ["low", "medium", "high"],
+      ["config[a]", "config[b]"]
+    ]
+  }
+}

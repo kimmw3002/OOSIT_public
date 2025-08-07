@@ -1,0 +1,79 @@
+{
+    "use_extended_data": true,
+    "max_lookback_days": 400,
+    "redirect_dict": {},
+    "full_start_date": "1999.12.22",
+    "full_end_date": "2024.12.31",
+    "test_periods": [
+        {
+            "period_name": "1",
+            "period_start_date": "1999.12.22",
+            "period_end_date": "2000.04.18"
+        },
+        {
+            "period_name": "2",
+            "period_start_date": "2003.12.24",
+            "period_end_date": "2004.11.17"
+        },
+        {
+            "period_name": "3",
+            "period_start_date": "2004.12.30",
+            "period_end_date": "2005.05.17"
+        },
+        {
+            "period_name": "4",
+            "period_start_date": "2006.01.20",
+            "period_end_date": "2006.05.17"
+        },
+        {
+            "period_name": "5",
+            "period_start_date": "2006.10.12",
+            "period_end_date": "2006.10.20"
+        },
+        {
+            "period_name": "6",
+            "period_start_date": "2012.07.30",
+            "period_end_date": "2014.10.13"
+        },
+        {
+            "period_name": "7",
+            "period_start_date": "2016.02.17",
+            "period_end_date": "2016.08.22"
+        },
+        {
+            "period_name": "8",
+            "period_start_date": "2016.09.19",
+            "period_end_date": "2018.04.04"
+        },
+        {
+            "period_name": "9",
+            "period_start_date": "2018.04.05",
+            "period_end_date": "2018.10.15"
+        },
+        {
+            "period_name": "10",
+            "period_start_date": "2019.07.01",
+            "period_end_date": "2019.07.05"
+        },
+        {
+            "period_name": "11",
+            "period_start_date": "2019.10.22",
+            "period_end_date": "2020.02.28"
+        },
+        {
+            "period_name": "12",
+            "period_start_date": "2020.08.17",
+            "period_end_date": "2022.01.24"
+        },
+        {
+            "period_name": "13",
+            "period_start_date": "2023.12.11",
+            "period_end_date": "2024.11.06"
+        }
+    ],
+    "strategies_directory": "./oosit_strategies",
+    "data_directory": "./csv_data",
+    "output_directory": "./oosit_results",
+    "font_name": "바탕",
+    "font_size": 11
+}

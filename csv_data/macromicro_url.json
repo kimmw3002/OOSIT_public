@@ -1,0 +1,5 @@
+{
+    "S&P 500 Forward PER": "https://en.macromicro.me/series/20052/sp500-forward-pe-ratio",
+    "S&P 500 Trailing PER": "https://en.macromicro.me/series/1633/us-sp500-pe-ratio",
+    "FINRA Margin": "https://en.macromicro.me/series/4635/finra-margin"
+}
